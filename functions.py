@@ -1,4 +1,7 @@
-def get_todos(filepath='files/todos.txt'):
+FILEPATH = 'files/todos.txt'
+
+
+def get_todos(filepath=FILEPATH):
     """
     Read todos from a text file and return them as a list of strings.
     """
@@ -7,7 +10,7 @@ def get_todos(filepath='files/todos.txt'):
     return todos_local
 
 
-def write_todos(todos_arg, filepath='files/todos.txt'):
+def write_todos(todos_arg, filepath=FILEPATH):
     """
     Write a list of todos to a text file.
     """
